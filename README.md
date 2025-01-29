@@ -47,3 +47,15 @@ for ip in remove_list:
 # Sobrescribir el archivo con la lista actualizada
 with open("allow_list.txt", "w") as file:
     file.write(" ".join(ip_addresses))
+```
+**🔧 Herramientas utilizadas:**
+
+- **Python** para el desarrollo del algoritmo.
+- **Manejo de archivos (`open`, `read`, `write`)** en Python.
+- **Manipulación de listas (`split`, `join`, `remove`)** para actualizar la información.
+
+**📌 Aprendizajes clave:**
+
+- Cómo **automatizar la actualización de archivos** en Python.
+- Uso de **métodos de manipulación de cadenas y listas** en Python.
+- Aplicación de **control de acceso mediante listas de permisos** en un entorno de ciberseguridad.
